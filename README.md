@@ -96,7 +96,7 @@ python "TALIO Method/main.py"
 Wrap your existing `LeRobotDataset` using `TALIOCompressedLeRobotDataset` in `Action Regularization/TALIO-LeRobot/action_reg_TALIO_LeRobot.py`:
 
 ```python
-from Action_Regularization.TALIO_LeRobot.lerobot_dataset_pretrain_mp import TALIOCompressedLeRobotDataset
+from Action_Regularization.TALIO_LeRobot.action_reg_TALIO_LeRobot import TALIOCompressedLeRobotDataset
 
 dataset = TALIOCompressedLeRobotDataset(
     base_dataset=base_lerobot_dataset,
@@ -110,7 +110,7 @@ dataset = TALIOCompressedLeRobotDataset(
 Wrap your iterable `RLDSDataset` using `TALIOCompressedDataset` from `Action Regularization/TALIO-RLDS/action_reg_TALIO_RLDS.py`:
 
 ```python
-from Action_Regularization.TALIO_RLDS.action_reg_TALIO import TALIOCompressedDataset
+from Action_Regularization.TALIO_RLDS.action_reg_TALIO_RLDS import TALIOCompressedDataset
 
 dataset = TALIOCompressedDataset(
     base_rlds_dataset=base_rlds_dataset,
