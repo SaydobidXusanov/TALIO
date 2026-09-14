@@ -1,4 +1,3 @@
-#use lerobot_dataset_pretrain_mp.py for multithreading load dataset
 import os
 import io
 import torch
