@@ -1,7 +1,7 @@
 # TALIO
-TALIO: An Unsupervised Temporal Segmentation Method for Robotic Sub-Action Discovery
+**TALIO: An Unsupervised Temporal Segmentation Method for Robotic Sub-Action Discovery**
 
-Official repository for **TALIO**, an unsupervised, training-free method for discovering temporal boundaries and sub-actions in demonstration trajectories, enabling lightweight action regularization for robotic policy learning.
+Official repository for **TALIO** (Trajectory Annotation via Latent Interval Organization), an unsupervised, training-free method for discovering temporal boundaries and sub-actions in demonstration trajectories, enabling lightweight action regularization for robotic policy learning.
 
 ---
 
@@ -124,7 +124,5 @@ dataset = TALIOCompressedDataset(
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/SaydobidXusanov/TALIO/blob/main/LICENSE) file for details.
-
-```
 
 ```
